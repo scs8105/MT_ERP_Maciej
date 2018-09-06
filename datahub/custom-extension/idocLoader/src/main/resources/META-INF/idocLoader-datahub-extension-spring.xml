@@ -1,0 +1,32 @@
+<!--
+  ~ [y] hybris Platform
+  ~
+  ~ Copyright (c) 2000-2015 hybris AG
+  ~ All rights reserved.
+  ~
+  ~ This software is the confidential and proprietary information of hybris
+  ~ ("Confidential Information"). You shall not disclose such Confidential
+  ~ Information and shall use it only in accordance with the terms of the
+  ~ license agreement you entered into with hybris.
+  -->
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:int-xml="http://www.springframework.org/schema/integration/xml"
+	   xmlns:int="http://www.springframework.org/schema/integration"
+		xsi:schemaLocation="http://www.springframework.org/schema/integration/xml http://www.springframework.org/schema/integration/xml/spring-integration-xml-4.1.xsd
+		                   http://www.springframework.org/schema/integration http://www.springframework.org/schema/integration/spring-integration-4.1.xsd
+						   http://www.springframework.org/schema/beans
+					       http://www.springframework.org/schema/beans/spring-beans.xsd
+					       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:property-placeholder location="classpath:/META-INF/idocLoader.properties" ignore-unresolvable="true" />
+
+	<bean id="idocload" class="com.hybris.datahub.custom.IDocLoad">
+		<property name="idocChannel" ref="idocXmlInboundChannel" />
+		<property name="processingDelay" value="${idocLoader.processingDelay}"/>
+	</bean>
+
+	
+ </beans>
