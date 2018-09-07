@@ -49,8 +49,7 @@
        "customsiteinitialdata",
        "customsitestorefront",
        "personalizationsearchsamplesaddon",
-       "y2ysyncbackoffice", 
-       "y2ysyncdemoelectronics"
+       "y2ysyncbackoffice"
    ],
    "storefrontAddons" : [
         {
