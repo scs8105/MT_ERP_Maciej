@@ -1,0 +1,7 @@
+{
+    "datahub_version" : "6.7.0.1-RC1",
+    "extensions" : [
+ 
+        "y2ysync-datahub-ext" 
+    ]
+}
