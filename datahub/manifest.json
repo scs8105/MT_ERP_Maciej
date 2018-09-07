@@ -2,6 +2,6 @@
     "datahub_version" : "6.7.0.1-RC1",
     "extensions" : [
  
-        "com.hybris.datahub:y2ysync-datahub-ext:6.7.0.0-RC1" 
+        "de.hybris.platform:y2ysync-datahub-ext:6.7.0.0-RC1" 
     ]
 }
