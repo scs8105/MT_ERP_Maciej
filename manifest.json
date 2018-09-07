@@ -1,5 +1,6 @@
 {
    "commerceSuiteVersion": "6.7.0.1",
+   "troubleshootingModeEnabled": true,
    "extensions": [
    	   "mcc",
        "backoffice",
@@ -47,7 +48,25 @@
        "customsitetest",
        "customsiteinitialdata",
        "customsitestorefront",
-       "personalizationsearchsamplesaddon"
+       "personalizationsearchsamplesaddon",
+       "datahubadapter",
+		"secureportaladdon",
+		"datahubbackoffice",
+		"sapcoreaddon",
+		"sapcoreconfigurationbackoffice",	
+		"sapmodelbackoffice",
+		"sapcustomerb2bbackoffice",
+		"b2bsappricing",
+		"sappricingbackoffice",	
+		"ysaporderfulfillment",
+		"saporderexchangeb2b",
+		"saporderexchangebackoffice",
+		"ysapordermgmtb2baddon",
+		"sapordermgmtbackoffice",
+		"b2bsapproductavailability",
+		"sapproductavailabilitybackoffice",
+		"sapcreditcheckbackoffice",
+		"sapcoretest"
    ],
    "storefrontAddons" : [
         {
@@ -114,10 +133,15 @@
             "addon": "assistedservicestorefront",
             "storefront": "customsitestorefront",
             "template": "yacceleratorstorefront"
+
         }
-        
-        
-                
+        {
+            "addon": "sapcoreaddon",
+            "storefront": "customsitestorefront",
+            "template": "yacceleratorstorefront"
+
+        }        
+
         
     ],
    "properties": [
@@ -145,9 +169,13 @@
             "persona": "production"
         },
         {
-     	 "key":"hac.webroot",
-     	 "value":"/hac"
-    	}
+     	      "key":"hac.webroot",
+     	      "value":"/hac"
+    	  },
+        {
+            "key":"persistence.legacy.mode",
+            "value":"false"
+        }
     ],
    "aspects": [
          {
@@ -165,6 +193,14 @@
                 {
                     "name": "backoffice",
                     "contextPath": "/backoffice"
+                },
+                {
+                    "name": "datahubadapter",
+                    "contextPath": "/datahubadapter"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
                 }
             ]
         },
@@ -188,6 +224,7 @@
                 {
                     "name": "customsitestorefront",
                     "contextPath": ""
+
                 }
             ]
         },
@@ -227,6 +264,14 @@
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
+                },
+                {
+                    "name": "datahubadapter",
+                    "contextPath": "/datahubadapter"
+                },
+                {
+                    "name": "oauth2",
+                    "contextPath": "/authorizationserver"
                 }
             ]
         }
