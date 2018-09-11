@@ -156,7 +156,7 @@
         },
         {
             "key":"y2ysync.datahub.url",
-            "value":"https://datahub:8080/datahub-webapp/v1/y2ysync/v60"
+            "value":"http://datahub:8080/datahub-webapp/v1/y2ysync/v60"
         },
         {
             "key": "datahubadapter.datahuboutbound.url",
