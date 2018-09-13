@@ -10,7 +10,7 @@
     <logger name="com.hybris.datahub.rest.resources.StatusResource" level="error"/>
     <!-- <logger name="com.hybris.datahub.command" level="trace" /> -->
   <logger name="com.hybris.datahub.config.SystemInformationLogger" level="info"/>
-  <logger name="com.hybris.datahub" level="info" />
+  <logger name="com.hybris.datahub" level="debug" />
     <logger name="com.hybris.datahub.sapidocintegration.spring.HttpInboundService" level="warn" />
   <logger name="com.hybris.datahub.jms.CustomMessageListenerContainer" level="info" />
   <logger name="com.hybris.datahub.jms.MultiDestinationJmsTemplate" level="info" />
