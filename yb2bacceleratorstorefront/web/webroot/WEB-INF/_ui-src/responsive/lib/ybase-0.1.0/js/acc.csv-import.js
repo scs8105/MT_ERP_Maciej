@@ -1,5 +1,6 @@
 ACC.csvimport = {
     TEXT_CSV_CONTENT_TYPE: 'text/csv',
+    TEXT_CSV_LONG_CONTENT_TYPE: 'text/comma-separated-values',
     APP_EXCEL_CONTENT_TYPE: 'application/vnd.ms-excel',
 
     _autoload: [
@@ -82,7 +83,8 @@ ACC.csvimport = {
         if (window.File && window.Blob) {
             if (selectedFile) {
                 if (!(selectedFile.type == ACC.csvimport.TEXT_CSV_CONTENT_TYPE ||
-                    selectedFile.type == ACC.csvimport.APP_EXCEL_CONTENT_TYPE)) {
+                    selectedFile.type == ACC.csvimport.APP_EXCEL_CONTENT_TYPE ||
+                    selectedFile.type == ACC.csvimport.TEXT_CSV_LONG_CONTENT_TYPE)) {
                     ACC.csvimport.displayGlobalAlert({type: 'error', messageId: 'import-csv-file-csv-required'});
                     return false;
                 }
