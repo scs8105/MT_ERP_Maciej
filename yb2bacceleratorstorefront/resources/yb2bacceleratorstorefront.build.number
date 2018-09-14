@@ -1,0 +1,9 @@
+#Ant properties
+#Tue May 08 01:20:35 CEST 2018
+builddate=20180508 0119
+description=yb2bacceleratorstorefront
+name=yb2bacceleratorstorefront
+releasedate=20180313 1012
+vendor=hybris
+version=6.7.0.1
+version.api=6.7.0

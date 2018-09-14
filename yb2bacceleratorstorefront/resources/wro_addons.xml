@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+   <group name="addons_responsive">
+      <js>/_ui/addons/profiletagaddon/responsive/common/js/profiletagaddon.js</js>
+      <css>/_ui/addons/profiletagaddon/responsive/common/css/profiletagaddon.css</css>
+      <css>/_ui/addons/sapymktrecommendationaddon/responsive/common/css/sapymktrecommendationaddon.css</css>
+      <js>/_ui/addons/sapdigitalpaymentaddon/responsive/common/js/sapdigitalpaymentaddon.js</js>
+      <css>/_ui/addons/sapdigitalpaymentaddon/responsive/common/css/sapdigitalpaymentaddon.css</css>
+      <js>/_ui/addons/ysapordermgmtb2baddon/responsive/common/js/ysapordermgmtb2baddon.js</js>
+      <css>/_ui/addons/ysapordermgmtb2baddon/responsive/common/css/ysapordermgmtb2baddon.css</css>
+   </group>
+</groups>
+
