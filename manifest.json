@@ -15,6 +15,7 @@
        "ycommercewebservices",
        "ycommercewebservicestest",
        "electronicsstore",
+       "powertoolsstore",
        "acceleratorwebservicesaddon",
        "orderselfserviceaddon",
        "customersupportbackoffice",
@@ -40,13 +41,11 @@
        "assistedservicewebservices",
        "assistedservicepromotionaddon",
        "pcmbackofficesamplesaddon",
-
 		"yacceleratorcockpits",
 		"yacceleratorinitialdata",
 		"yacceleratorfulfilmentprocess",
 		"yacceleratorstorefront",
 		"yb2bacceleratorstorefront",
-				
        "personalizationsearchsamplesaddon",
        "datahubadapter",
 		"secureportaladdon",
