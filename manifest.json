@@ -266,7 +266,23 @@
         {
             "key":"persistence.legacy.mode",
             "value":"false"
-        }
+        },
+        {
+            "key":"website.electronics.http",
+            "value":"http://accstorefront.cyqusdd2-emeadatah1-p2-public.model-t.myhybris.cloud/yacceleratorstorefront"
+        },        
+        {
+            "key":"website.electronics.https",
+            "value":"http://accstorefront.cyqusdd2-emeadatah1-p2-public.model-t.myhybris.cloud/yacceleratorstorefront"
+        },
+        {
+            "key":"website.powertools.http",
+            "value":"http://accstorefront.cyqusdd2-emeadatah1-p2-public.model-t.myhybris.cloud/yb2bacceleratorstorefront"
+        },        
+        {
+            "key":"website.powertools.https",
+            "value":"http://accstorefront.cyqusdd2-emeadatah1-p2-public.model-t.myhybris.cloud/yb2bacceleratorstorefront"
+        }             
     ],
    "aspects": [
          {
