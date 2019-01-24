@@ -1,32 +1,27 @@
 {
-    "datahub_version" : "6.7.0.2-RC1",
+    "datahub_version" : "1808.4",
     "extensions" : [
- 		"idocLoader",
  
-        "com.hybris.datahub:sapcoreconfiguration:6.7.0.2-RC1",
- 
-        "com.hybris.datahub:sapcustomer-canonical:6.7.0.2-RC1",
-        "com.hybris.datahub:sapcustomer-raw:6.7.0.2-RC1",
-        "com.hybris.datahub:sapcustomer-target:6.7.0.2-RC1",
- 
-        "com.hybris.datahub:party-canonical:6.7.0.2-RC1",
- 
-        "com.hybris.datahub:saperpproduct-canonical:6.7.0.2-RC1",
-        "com.hybris.datahub:saperpproduct-raw:6.7.0.2-RC1",
-        "com.hybris.datahub:saperpproduct-target:6.7.0.2-RC1",
- 
-        "com.hybris.datahub:product-canonical:6.7.0.2-RC1",
- 
-        "com.hybris.datahub:sappricing-canonical:6.7.0.0-RC1",
-        "com.hybris.datahub:sappricing-raw:6.7.0.2-RC1",
-        "com.hybris.datahub:sappricing-target:6.7.0.2-RC1",
- 
-        "com.hybris.datahub:saporder-canonical:6.7.0.2-RC1",
-        "com.hybris.datahub:saporder-raw:6.7.0.2-RC1",
-        "com.hybris.datahub:saporder-target:6.7.0.2-RC1",
- 
-        "com.hybris.datahub:sapidocintegration:6.7.0.2-RC1",
-        "com.hybris.datahub:sapidocoutboundadapter:6.7.0.2-RC1"
- 
+       
+        
+        "sapcoreconfiguration",
+        "sapidocintegration",
+        "sapidocoutboundadapter",
+
+        "sapcustomer-canonical",
+        "sapcustomer-raw",
+        "sapcustomer-target",
+
+        "party-canonical",
+
+        "saperpproduct-canonical",
+        "saperpproduct-raw",
+        "saperpproduct-target",
+
+        "product-canonical",
+
+        "saporder-canonical",
+        "saporder-raw",
+        "saporder-target"
     ]
 }
